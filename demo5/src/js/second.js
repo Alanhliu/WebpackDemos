@@ -3,5 +3,4 @@
  */
 // require('./second.css')
 import '../css/second.css';
-import '../css/background.less';
 console.log("sencond.js");
