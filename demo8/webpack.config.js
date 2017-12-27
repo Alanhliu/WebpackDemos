@@ -73,17 +73,6 @@ module.exports = {
 						}
 					}
 				]
-			},
-			{
-				test: /\.(png|svg|jpg|gif)$/,
-				use: [
-					{
-						loader: 'url-loader',
-						options: {
-							limit: 8192,
-						}
-					}
-				]
 			}
 		]
 	},
@@ -104,6 +93,14 @@ module.exports = {
 			},
 			allChunks: true
 		}),
+		//third中不引入公共css和公共js
+		//现在是公共css和js同时引入或不引入，思考?
+		//如果third中只引入公共css不引入公共js，或只引入公共js不引入公共css该怎么办？
+		new HtmlWebpackPlugin({
+			template: './src/views/third.html',
+			filename: 'views/third.html',
+			chunks: ['third'],//引入third.bundle.js
+		}),
 		new HtmlWebpackPlugin({
 			template: './src/views/index.html',
 			filename: 'views/index.html',
@@ -119,14 +116,6 @@ module.exports = {
 			template: './src/views/second.html',
 			filename: 'views/second.html',
 			chunks: ['common','second'],//引入second.bundle.js,common.bundle.js
-		}),
-		//third中不引入公共css和公共js
-		//现在是公共css和js同时引入或不引入，思考?
-		//如果third中只引入公共css不引入公共js，或只引入公共js不引入公共css该怎么办？
-		new HtmlWebpackPlugin({
-			template: './src/views/third.html',
-			filename: 'views/third.html',
-			chunks: ['third'],//引入third.bundle.js
 		}),
   	],
 	devServer: {
