@@ -55,7 +55,7 @@ function createHtmlWebpackPlugins(globPath) {
 		const conf = {
 			template: template,
 			filename: 'views/'+basename+extname,
-			chunks: ['common','js/'+basename],
+			chunks: ['js/common','js/'+basename],
 			chunksSortMode: 'dependency'
 		};
 		plugins.push(new HtmlWebpackPlugin(conf));
