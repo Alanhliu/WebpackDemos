@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e28835e8-efbf-4136-ad94-8c4c723a67fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../demo6/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../demo6/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../demo7/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../demo7/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../demo8.1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../demo8.1/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/src/css/index.css" afterPath="$PROJECT_DIR$/src/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/src/css/second.css" afterPath="$PROJECT_DIR$/src/css/second.css" />
-      <change beforePath="$PROJECT_DIR$/src/css/third.css" afterPath="$PROJECT_DIR$/src/css/third.css" />
-      <change beforePath="$PROJECT_DIR$/src/views/index.html" afterPath="$PROJECT_DIR$/src/views/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/views/second.html" afterPath="$PROJECT_DIR$/src/views/second.html" />
-      <change beforePath="$PROJECT_DIR$/src/views/third.html" afterPath="$PROJECT_DIR$/src/views/third.html" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
       <change beforePath="$PROJECT_DIR$/../demo9/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../demo9/.idea/workspace.xml" />
     </list>
     <ignored path="demo1.iws" />
@@ -134,8 +125,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="85" />
-    <option name="y" value="192" />
+    <option name="x" value="240" />
+    <option name="y" value="73" />
     <option name="width" value="1526" />
     <option name="height" value="888" />
   </component>
@@ -157,6 +148,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,8 +195,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,14 +314,15 @@
       <workItem from="1514965865986" duration="223000" />
       <workItem from="1514966648778" duration="2018000" />
       <workItem from="1514969343511" duration="16000" />
+      <workItem from="1515389775869" duration="62000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48708000" />
+    <option name="totallyTimeSpent" value="48770000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="85" y="192" width="1526" height="888" extended-state="0" />
+    <frame x="240" y="73" width="1526" height="888" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23591088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -632,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -23,14 +23,6 @@ module.exports = {
 	// 使用loader模块
 	module: {
 
-		// loaders: [
-		// 	{ test: /\.css$/, loader: "style-loader!css-loader" },
-		// 	{ test: /\.js$/, loader: "babel-loader", exclude: /node_modules/ ,query: { presets: ['es2015']}}
-		// ],
-
-		// 参考 loaders -> rules
-		// https://doc.webpack-china.org/guides/migrating/#module-loaders-module-rules
-
 		// rules就是配置规则，他是一个数组，每一项为一个对象，如果有多个loader,那就用多个对象，
 		// test: /\.js$/ 就是以.js结尾的文件，
 		// exclude:排除node_modules这个目录，意思就是不要去这个目录下处理.js的文件，有什么好处呢？大大提高打包的速度.
